@@ -1,0 +1,27 @@
+{
+  "name": "chao-practice",
+  "version": "1.0.0",
+  "description": "personal practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
+  },
+  "author": "Riki",
+  "license": "ISC",
+  "devDependencies": {
+    "@angular/cli": "^18.0.7",
+    "nodemon": "^3.1.4",
+    "typescript": "^5.5.3"
+  },
+  "dependencies": {
+    "@angular/common": "^18.0.6",
+    "@angular/core": "^18.0.6",
+    "@angular/forms": "^18.0.6",
+    "@angular/router": "^18.0.6",
+    "angular": "^1.8.3",
+    "body-parse": "^0.1.0",
+    "express": "^4.19.2"
+  }
+}
